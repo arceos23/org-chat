@@ -15,3 +15,11 @@ CREATE TABLE person (
     organization_id UUID REFERENCES organization(id),
     about TEXT
 );
+
+CREATE EXTENSION vector;
+
+CREATE TABLE person_embeddings (
+    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+    person_id UUID REFERENCES person(id),
+    embedding VECTOR(768)
+);
