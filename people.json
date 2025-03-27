@@ -1,231 +1,231 @@
 {
-    "members": [
+    "people": [
       {
         "name": "Emily Carter",
         "organization": "Executive Team",
-        "role": "CEO",
+        "title": "CEO",
         "about": "Emily grew up in Seattle, WA, and earned a Computer Science degree from Stanford University. With over 15 years in the tech industry, she has successfully led multiple startups and is recognized for her strategic vision and leadership. She is passionate about empowering women in technology and enjoys hiking, mentoring startups, and playing the piano."
       },
       {
         "name": "Michael Tran",
         "organization": "Executive Team",
-        "role": "COO",
+        "title": "COO",
         "about": "Born and raised in Austin, TX, Michael studied Business Administration at the University of Texas. With extensive experience in operations and logistics, he previously managed global supply chains for a Fortune 500 company. He is committed to building high-performing teams and enjoys playing tennis, cooking gourmet meals, and traveling."
       },
       {
         "name": "Sophia Patel",
         "organization": "Executive Team",
-        "role": "CFO",
+        "title": "CFO",
         "about": "Originally from Chicago, IL, Sophia studied Finance at the University of Pennsylvania (Wharton). She has spent a decade in financial management, working with both startups and large enterprises. Passionate about driving financial growth and sustainability, she also enjoys investing, gardening, and reading historical fiction."
       },
       {
         "name": "James Reynolds",
         "organization": "Executive Team",
-        "role": "CTO",
+        "title": "CTO",
         "about": "James grew up in San Diego, CA, and earned his Computer Science degree from MIT. A technology enthusiast with expertise in AI and cloud computing, he has worked on cutting-edge projects and frequently speaks at tech conferences. He enjoys AI research, woodworking, and playing chess, and he actively mentors young engineers."
       },
       {
         "name": "Rachel Lin",
         "organization": "Engineering Team",
-        "role": "Engineering Manager",
+        "title": "Engineering Manager",
         "about": "Rachel was born in Toronto, Canada, and studied Software Engineering at the University of Waterloo. She has led engineering teams for major software firms, specializing in agile methodologies. Passionate about fostering diverse and inclusive engineering teams, she also enjoys rock climbing, painting, and volunteering at STEM programs."
       },
       {
         "name": "David Kim",
         "organization": "Engineering Team",
-        "role": "Senior Software Engineer",
+        "title": "Senior Software Engineer",
         "about": "David grew up in San Francisco, CA, and studied Computer Science at UC Berkeley. With a strong background in full-stack development and machine learning, he has worked in both startups and large tech companies. He regularly contributes to open-source projects and enjoys coding side projects, watching sci-fi movies, and playing the guitar."
       },
       {
         "name": "Anika Gupta",
         "organization": "Engineering Team",
-        "role": "Software Engineer",
+        "title": "Software Engineer",
         "about": "Originally from Mumbai, India, Anika studied Computer Science at Carnegie Mellon University. Specializing in UI/UX design and front-end engineering, she is dedicated to creating user-friendly digital experiences. In her free time, she enjoys photography, practicing yoga, and refining her design skills."
       },
       {
         "name": "Kevin Lopez",
         "organization": "Engineering Team",
-        "role": "Software Engineer",
+        "title": "Software Engineer",
         "about": "Kevin grew up in Houston, TX, and studied Information Systems at the University of Houston. An expert in backend development and distributed systems, he is passionate about writing clean, efficient code. Outside of work, he enjoys gaming, writing short stories, and salsa dancing."
       },
       {
         "name": "Olivia Martinez",
         "organization": "Engineering Team",
-        "role": "Software Engineer",
+        "title": "Software Engineer",
         "about": "Born in Denver, CO, Olivia studied Computer Engineering at the University of Colorado. She has worked extensively on embedded systems and IoT projects. Passionate about the intersection of hardware and software, she also enjoys trail running, experimenting with smart home technology, and baking."
       },
       {
         "name": "Robert Blake",
         "organization": "Sales & Marketing Team",
-        "role": "Sales Director",
+        "title": "Sales Director",
         "about": "Born in Miami, FL, Robert studied Marketing at the University of Florida. With a track record of driving revenue growth and building strong customer relationships, he is focused on developing innovative sales strategies. Outside of work, he enjoys golfing, watching football, and collecting vintage cars."
       },
       {
         "name": "Lisa Chen",
         "organization": "Sales & Marketing Team",
-        "role": "Account Executive",
+        "title": "Account Executive",
         "about": "Lisa grew up in Portland, OR, and studied Business Administration at Oregon State University. With experience in B2B sales and account management, she is passionate about understanding customer needs and providing solutions. In her free time, she enjoys baking, hiking, and writing poetry."
       },
       {
         "name": "Vanessa Rodriguez",
         "organization": "Sales & Marketing Team",
-        "role": "Marketing Manager",
+        "title": "Marketing Manager",
         "about": "Vanessa grew up in Phoenix, AZ, and studied Digital Marketing at Arizona State University. Specializing in social media marketing and branding, she is dedicated to crafting compelling brand narratives. She also enjoys photography, yoga, and fashion blogging."
       },
       {
         "name": "Alex Thompson",
         "organization": "Product Team",
-        "role": "Product Manager",
+        "title": "Product Manager",
         "about": "Alex grew up in Boston, MA, and studied Business & Technology at Harvard University. He has worked with cross-functional teams to build innovative products. Passionate about user-centric product development, he enjoys podcasting, strategy board games, and running."
       },
       {
         "name": "Mia Nguyen",
         "organization": "Product Team",
-        "role": "UX/UI Designer",
+        "title": "UX/UI Designer",
         "about": "Born in Los Angeles, CA, Mia studied Graphic Design at UCLA. She has designed intuitive user interfaces for leading tech companies and is passionate about making digital experiences more accessible. Outside of work, she enjoys painting, traveling, and fashion design."
       },
       {
         "name": "Ben Sanders",
         "organization": "Product Team",
-        "role": "Product Designer",
+        "title": "Product Designer",
         "about": "Ben grew up in Atlanta, GA, and studied Industrial Design at Georgia Tech. With expertise in user research and prototyping, he is focused on blending functionality with aesthetics. He enjoys woodworking, photography, and kayaking."
       },
       {
         "name": "Jessica Adams",
         "organization": "HR & Operations Team",
-        "role": "HR Manager",
+        "title": "HR Manager",
         "about": "Jessica grew up in Philadelphia, PA, and studied Human Resource Management at Temple University. With experience in talent acquisition and employee engagement, she is passionate about workplace culture and well-being. She enjoys yoga, baking, and organizing community events."
       },
       {
         "name": "Daniel Brooks",
         "organization": "HR & Operations Team",
-        "role": "Recruiter",
+        "title": "Recruiter",
         "about": "Born in Kansas City, MO, Daniel studied Psychology at the University of Kansas. Specializing in talent sourcing and recruitment strategy, he is committed to finding the best talent for the company. Outside of work, he enjoys networking, weightlifting, and stand-up comedy."
       },
       {
         "name": "Ryan Clark",
         "organization": "HR & Operations Team",
-        "role": "IT Support Specialist",
+        "title": "IT Support Specialist",
         "about": "Born in San Jose, CA, Ryan studied Information Technology at San Jose State University. With experience in IT infrastructure and cybersecurity, he is dedicated to ensuring seamless IT operations. He enjoys gaming, tinkering with hardware, and playing soccer."
       },
       {
         "name": "Natalie Foster",
         "organization": "Executive Team",
-        "role": "CMO",
+        "title": "CMO",
         "about": "Natalie grew up in Chicago, IL, and studied Marketing at Northwestern University. She has over 12 years of experience in digital marketing and branding, with a particular focus on growth strategies for tech companies. She enjoys reading marketing books, traveling to new destinations, and practicing yoga."
       },
       {
         "name": "Elijah Harris",
         "organization": "Engineering Team",
-        "role": "Engineering Manager",
+        "title": "Engineering Manager",
         "about": "Elijah is originally from Boston, MA, and studied Software Engineering at MIT. With a passion for building high-performing teams, he has led several successful projects involving cloud infrastructure. Outside of work, he loves hiking, birdwatching, and woodworking."
       },
       {
         "name": "Jasmine Lee",
         "organization": "Engineering Team",
-        "role": "Junior Software Engineer",
+        "title": "Junior Software Engineer",
         "about": "Jasmine grew up in Los Angeles, CA, and studied Computer Science at Caltech. A passionate coder and problem-solver, she specializes in Python and mobile development. In her free time, she enjoys painting, volunteering at tech camps for kids, and playing the violin."
       },
       {
         "name": "Kurtis Roberts",
         "organization": "Sales & Marketing Team",
-        "role": "Sales Executive",
+        "title": "Sales Executive",
         "about": "Kurtis is from Atlanta, GA, and studied Business Administration at Georgia State University. Specializing in B2B sales and customer success, he thrives in high-energy environments. He is an avid sports fan, enjoys hiking, and is a dedicated volunteer with youth programs."
       },
       {
         "name": "Maya Smith",
         "organization": "Sales & Marketing Team",
-        "role": "Marketing Specialist",
+        "title": "Marketing Specialist",
         "about": "Maya grew up in Seattle, WA, and studied Digital Marketing at the University of Washington. She focuses on creating compelling content and managing brand awareness campaigns. She enjoys photography, hiking, and attending local art exhibitions in her free time."
       },
       {
         "name": "Dylan Walker",
         "organization": "Product Team",
-        "role": "Product Analyst",
+        "title": "Product Analyst",
         "about": "Dylan grew up in Austin, TX, and studied Data Science at the University of Texas. With a passion for understanding user behavior, he works closely with the product team to refine product features. In his free time, Dylan enjoys rock climbing, playing video games, and reading science fiction."
       },
       {
         "name": "Ava Anderson",
         "organization": "Product Team",
-        "role": "Product Designer",
+        "title": "Product Designer",
         "about": "Ava is from New York, NY, and studied Industrial Design at Pratt Institute. She has a strong background in UX/UI and product design for mobile applications. Outside of work, Ava enjoys knitting, traveling, and exploring new design trends at industry conferences."
       },
       {
         "name": "Zoe Parker",
         "organization": "HR & Operations Team",
-        "role": "HR Coordinator",
+        "title": "HR Coordinator",
         "about": "Zoe grew up in Miami, FL, and studied Human Resources at the University of Miami. Passionate about employee engagement and wellness programs, she has worked with companies of all sizes. She loves photography, fitness, and organizing corporate social events."
       },
       {
         "name": "Ryan White",
         "organization": "HR & Operations Team",
-        "role": "Operations Manager",
+        "title": "Operations Manager",
         "about": "Ryan is from Denver, CO, and studied Operations Management at the University of Colorado. With experience managing day-to-day operations for growing companies, he focuses on optimizing processes. Outside of work, Ryan enjoys playing basketball, volunteering, and hiking."
       },
       {
         "name": "Oliver Stone",
         "organization": "IT & Support Team",
-        "role": "IT Manager",
+        "title": "IT Manager",
         "about": "Oliver grew up in Phoenix, AZ, and studied Information Technology at Arizona State University. With a background in network security and IT management, he ensures smooth operations across systems. He enjoys tinkering with hardware, cycling, and photography."
       },
       {
         "name": "Liam Cooper",
         "organization": "Executive Team",
-        "role": "VP of Product",
+        "title": "VP of Product",
         "about": "Liam grew up in San Francisco, CA, and studied Computer Science at UC Berkeley. With over 10 years of experience in product development, he specializes in leading cross-functional teams to build innovative products. He is passionate about sustainable tech and enjoys photography, hiking, and playing tennis."
       },
       {
         "name": "Chloe Scott",
         "organization": "Engineering Team",
-        "role": "Software Engineer",
+        "title": "Software Engineer",
         "about": "Chloe is from Seattle, WA, and studied Software Engineering at the University of Washington. With a strong background in backend development, she is passionate about optimizing systems and solving complex problems. Outside of work, Chloe enjoys reading, cooking, and running. Chloe's favorite show is Naruto."
       },
       {
         "name": "Benjamin Moore",
         "organization": "Engineering Team",
-        "role": "DevOps Engineer",
+        "title": "DevOps Engineer",
         "about": "Benjamin grew up in Dallas, TX, and studied Systems Engineering at Texas A&M University. Specializing in automation and infrastructure management, he ensures high availability and scalability. Benjamin loves playing video games, participating in hackathons, and learning about new cloud technologies."
       },
       {
         "name": "Grace Williams",
         "organization": "Sales & Marketing Team",
-        "role": "Sales Manager",
+        "title": "Sales Manager",
         "about": "Grace is from Miami, FL, and studied Business Administration at the University of Miami. She has extensive experience in sales leadership and customer relationship management. Grace enjoys traveling, yoga, and working on creative writing projects in her free time."
       },
       {
         "name": "Dylan Miller",
         "organization": "Sales & Marketing Team",
-        "role": "Digital Marketing Strategist",
+        "title": "Digital Marketing Strategist",
         "about": "Dylan grew up in Chicago, IL, and studied Digital Marketing at DePaul University. He specializes in SEO, paid media, and social media strategies. Dylan is passionate about storytelling through digital channels and enjoys hiking, photography, and playing the piano."
       },
       {
         "name": "Olivia Green",
         "organization": "Product Team",
-        "role": "Product Designer",
+        "title": "Product Designer",
         "about": "Olivia grew up in Portland, OR, and studied Product Design at the California College of the Arts. With a strong background in human-centered design, she focuses on creating intuitive and accessible products. Olivia enjoys hiking, painting, and discovering new design trends at art exhibitions."
       },
       {
         "name": "Samuel Turner",
         "organization": "Product Team",
-        "role": "UX/UI Researcher",
+        "title": "UX/UI Researcher",
         "about": "Samuel is from Denver, CO, and studied Cognitive Science at UC Berkeley. Specializing in user experience research, he helps shape product strategies by understanding user needs and behaviors. Samuel loves cycling, reading historical novels, and exploring new outdoor activities."
       },
       {
         "name": "Natalie Brooks",
         "organization": "HR & Operations Team",
-        "role": "Operations Coordinator",
+        "title": "Operations Coordinator",
         "about": "Natalie grew up in Austin, TX, and studied Human Resources Management at the University of Texas. She has experience managing operational processes and supporting employee engagement initiatives. Natalie enjoys gardening, attending music festivals, and cooking new recipes."
       },
       {
         "name": "Ethan Harris",
         "organization": "HR & Operations Team",
-        "role": "Payroll Specialist",
+        "title": "Payroll Specialist",
         "about": "Ethan is from Salt Lake City, UT, and studied Accounting at the University of Utah. He specializes in payroll management and financial reporting, ensuring smooth payroll operations. Ethan loves mountain biking, reading financial news, and volunteering at local animal shelters. Ethan is also a huge fan of Fullmetal Alchemist."
       },
       {
         "name": "Sophie Turner",
         "organization": "IT & Support Team",
-        "role": "Cybersecurity Analyst",
+        "title": "Cybersecurity Analyst",
         "about": "Sophie grew up in New York, NY, and studied Cybersecurity at NYU. With a deep passion for protecting digital assets, she has worked with multiple companies to strengthen their security protocols. Outside of work, Sophie enjoys coding personal projects, playing chess, and attending tech meetups. Sophie loves Star Wars and Harry Potter."
       }
     ]
