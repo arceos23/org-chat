@@ -91,9 +91,6 @@ def get_chat(query: str) -> str:
             for person in rows
         )
 
-        print("CONTEXT")
-        print(context)
-
         response: ChatResponse = chat(
             model="llama3.2",
             messages=[
