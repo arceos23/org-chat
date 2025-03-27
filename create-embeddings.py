@@ -37,7 +37,7 @@ def create_embeddings():
         )
 
         for i, person_prompt in enumerate(person_prompts):
-            embedding = client.embeddings(
+            response = client.embeddings(
                 model="nomic-embed-text",
                 prompt=person_prompt,
             )
@@ -49,7 +49,7 @@ def create_embeddings():
                         VALUES (:person_id, :embedding);
                     """
                 ),
-                {"person_id": person_ids[i], "embedding": embedding.embedding},
+                {"person_id": person_ids[i], "embedding": response.embedding},
             )
             connection.commit()
 
