@@ -1,0 +1,12 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Backend of OrgChat"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+    "ollama>=0.5.1",
+    "pydantic>=2.11.5",
+    "sqlalchemy>=2.0.41",
+]
