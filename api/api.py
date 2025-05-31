@@ -4,8 +4,15 @@ from pydantic import BaseModel, UUID4
 from fastapi import FastAPI
 from sqlalchemy import create_engine, text
 from ollama import Client, chat, ChatResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+# Allow all origins (you can restrict this to specific domains)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # For local development
+)
 
 POSTGRES_URL = f"postgresql+psycopg://{os.environ.get('PG_LOCAL_USER')}:{os.environ.get('PG_LOCAL_PASSWORD')}@localhost:{os.environ.get('PG_PORT')}"
 OLLAMA_URL = f"http://localhost:{os.environ.get('OL_PORT')}"
@@ -17,6 +24,14 @@ class Person(BaseModel):
     title: str
     organization: str
     about: str | None = None
+
+
+class ChatRequest(BaseModel):
+    message: str
+
+
+class APIChatResponse(BaseModel):
+    content: str
 
 
 DOCUMENT_LIMIT = 5
@@ -43,8 +58,8 @@ def get_people(offset: int = 0, limit: int = 5) -> List[Person]:
         )
 
 
-@app.get("/chat", response_model=str)
-def get_chat(query: str) -> str:
+@app.post("/chat", response_model=APIChatResponse)
+def api_chat(request: ChatRequest) -> APIChatResponse:
     engine = create_engine(POSTGRES_URL, echo=True)
     with engine.connect() as connection:
         client = Client(
@@ -52,7 +67,7 @@ def get_chat(query: str) -> str:
         )
         response = client.embeddings(
             model="nomic-embed-text",
-            prompt=query,
+            prompt=request.message,
         )
 
         rows = connection.execute(
@@ -96,8 +111,8 @@ def get_chat(query: str) -> str:
             messages=[
                 {
                     "role": "user",
-                    "content": f"{context}\n{query}",
+                    "content": f"{context}\n{request.message}",
                 },
             ],
         )
-        return response["message"]["content"]
+        return {"content": response["message"]["content"]}
