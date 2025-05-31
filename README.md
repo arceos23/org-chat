@@ -1,0 +1,1 @@
+![A demo of the user asking if anyone at the company enjoys hiking.](demo.png)
