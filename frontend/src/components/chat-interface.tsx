@@ -42,9 +42,13 @@ export function ChatInterface({ apiEndpoint }: ChatInterfaceProps) {
   const scrollAreaRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Scroll to bottom when messages change
     if (scrollAreaRef.current) {
-      scrollAreaRef.current.scrollTop = scrollAreaRef.current.scrollHeight;
+      const scrollableView = scrollAreaRef.current.querySelector(
+        "div[data-radix-scroll-area-viewport]"
+      );
+      if (scrollableView) {
+        scrollableView.scrollTop = scrollableView.scrollHeight;
+      }
     }
   }, [messages]);
 
